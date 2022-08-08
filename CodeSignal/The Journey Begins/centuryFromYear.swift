@@ -11,5 +11,4 @@ class CenturyFromYear {
     func solution(year: Int) -> Int {
         return (year + 99) / 100
     }
-
 }

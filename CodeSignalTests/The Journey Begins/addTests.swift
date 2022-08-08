@@ -6,8 +6,6 @@
 //
 
 import XCTest
-//@testable import CodeSignal
-
 
 class AddTests: XCTestCase {
 
@@ -23,7 +21,7 @@ class AddTests: XCTestCase {
         try super.tearDownWithError()
     }
 
-    func testOne() throws {
+    func test_1() throws {
         let p1 = 1
         let p2 = 2
         let expectedOutput = 3
@@ -32,7 +30,7 @@ class AddTests: XCTestCase {
         XCTAssertEqual(result, expectedOutput)
     }
     
-    func testTwo() throws {
+    func test_2() throws {
         let p1 = 0
         let p2 = 1000
         let expectedOutput = 1000
@@ -41,7 +39,7 @@ class AddTests: XCTestCase {
         XCTAssertEqual(result, expectedOutput)
     }
     
-    func testThree() throws {
+    func test_3() throws {
         let p1 = 2
         let p2 = -39
         let expectedOutput = -37
@@ -50,7 +48,7 @@ class AddTests: XCTestCase {
         XCTAssertEqual(result, expectedOutput)
     }
     
-    func testFour() throws {
+    func test_4() throws {
         let p1 = 99
         let p2 = 100
         let expectedOutput = 199
@@ -59,7 +57,7 @@ class AddTests: XCTestCase {
         XCTAssertEqual(result, expectedOutput)
     }
     
-    func testFive() throws {
+    func test_5() throws {
         let p1 = -100
         let p2 = 100
         let expectedOutput = 0
@@ -68,7 +66,7 @@ class AddTests: XCTestCase {
         XCTAssertEqual(result, expectedOutput)
     }
     
-    func testSix() throws {
+    func test_6() throws {
         let p1 = -1000
         let p2 = -1000
         let expectedOutput = -2000
@@ -82,7 +80,7 @@ class AddTests: XCTestCase {
         let p2 = 2
         
         measure {
-            add.solution(param1: p1, param2: p2)
+            _ = add.solution(param1: p1, param2: p2)
         }
     }
 
