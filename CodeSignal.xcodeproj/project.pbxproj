@@ -17,6 +17,12 @@
 		BB552F4828A10C96008EC29A /* checkPalindromeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB552F4728A10C96008EC29A /* checkPalindromeTests.swift */; };
 		BBDE969928A10E40001FD545 /* checkPalindrome.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBDE969828A10E40001FD545 /* checkPalindrome.swift */; };
 		BBDE969A28A10E40001FD545 /* checkPalindrome.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBDE969828A10E40001FD545 /* checkPalindrome.swift */; };
+		BBDE969D28A1103B001FD545 /* adjacentElementsProduct.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBDE969C28A1103B001FD545 /* adjacentElementsProduct.swift */; };
+		BBDE969E28A1103B001FD545 /* adjacentElementsProduct.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBDE969C28A1103B001FD545 /* adjacentElementsProduct.swift */; };
+		BBDE96A328A1109C001FD545 /* adjacentElementsProductTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBDE96A228A1109C001FD545 /* adjacentElementsProductTests.swift */; };
+		BBDE96A728A11209001FD545 /* shapeArea.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBDE96A628A11209001FD545 /* shapeArea.swift */; };
+		BBDE96A828A11209001FD545 /* shapeArea.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBDE96A628A11209001FD545 /* shapeArea.swift */; };
+		BBDE96AA28A11230001FD545 /* shapeAreaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBDE96A928A11230001FD545 /* shapeAreaTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -41,6 +47,10 @@
 		BB46D0FA28A108DA00C19B38 /* centuryFromYearTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = centuryFromYearTests.swift; sourceTree = "<group>"; };
 		BB552F4728A10C96008EC29A /* checkPalindromeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = checkPalindromeTests.swift; sourceTree = "<group>"; };
 		BBDE969828A10E40001FD545 /* checkPalindrome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = checkPalindrome.swift; sourceTree = "<group>"; };
+		BBDE969C28A1103B001FD545 /* adjacentElementsProduct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = adjacentElementsProduct.swift; sourceTree = "<group>"; };
+		BBDE96A228A1109C001FD545 /* adjacentElementsProductTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = adjacentElementsProductTests.swift; sourceTree = "<group>"; };
+		BBDE96A628A11209001FD545 /* shapeArea.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = shapeArea.swift; sourceTree = "<group>"; };
+		BBDE96A928A11230001FD545 /* shapeAreaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = shapeAreaTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,7 +92,7 @@
 		BB46D0D628A102D500C19B38 /* CodeSignal */ = {
 			isa = PBXGroup;
 			children = (
-				BB46D0F528A1081F00C19B38 /* The Journey Begins */,
+				BBDE96A428A111CB001FD545 /* Intro */,
 				BB46D0D728A102D500C19B38 /* main.swift */,
 			);
 			path = CodeSignal;
@@ -91,7 +101,7 @@
 		BB46D0E528A1037500C19B38 /* CodeSignalTests */ = {
 			isa = PBXGroup;
 			children = (
-				BB46D0F928A1087700C19B38 /* The Journey Begins */,
+				BBDE96A528A111E3001FD545 /* Intro */,
 			);
 			path = CodeSignalTests;
 			sourceTree = "<group>";
@@ -106,14 +116,50 @@
 			path = "The Journey Begins";
 			sourceTree = "<group>";
 		};
-		BB46D0F928A1087700C19B38 /* The Journey Begins */ = {
+		BB46D0F928A1087700C19B38 /* The Journey Begins Tests */ = {
 			isa = PBXGroup;
 			children = (
 				BB46D0E628A1037500C19B38 /* addTests.swift */,
 				BB46D0FA28A108DA00C19B38 /* centuryFromYearTests.swift */,
 				BB552F4728A10C96008EC29A /* checkPalindromeTests.swift */,
 			);
-			path = "The Journey Begins";
+			path = "The Journey Begins Tests";
+			sourceTree = "<group>";
+		};
+		BBDE969B28A11030001FD545 /* Edge of the Ocean */ = {
+			isa = PBXGroup;
+			children = (
+				BBDE969C28A1103B001FD545 /* adjacentElementsProduct.swift */,
+				BBDE96A628A11209001FD545 /* shapeArea.swift */,
+			);
+			path = "Edge of the Ocean";
+			sourceTree = "<group>";
+		};
+		BBDE969F28A1105C001FD545 /* Edge of the Ocean Tests */ = {
+			isa = PBXGroup;
+			children = (
+				BBDE96A228A1109C001FD545 /* adjacentElementsProductTests.swift */,
+				BBDE96A928A11230001FD545 /* shapeAreaTests.swift */,
+			);
+			path = "Edge of the Ocean Tests";
+			sourceTree = "<group>";
+		};
+		BBDE96A428A111CB001FD545 /* Intro */ = {
+			isa = PBXGroup;
+			children = (
+				BBDE969B28A11030001FD545 /* Edge of the Ocean */,
+				BB46D0F528A1081F00C19B38 /* The Journey Begins */,
+			);
+			path = Intro;
+			sourceTree = "<group>";
+		};
+		BBDE96A528A111E3001FD545 /* Intro */ = {
+			isa = PBXGroup;
+			children = (
+				BBDE969F28A1105C001FD545 /* Edge of the Ocean Tests */,
+				BB46D0F928A1087700C19B38 /* The Journey Begins Tests */,
+			);
+			path = Intro;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -205,7 +251,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BBDE96A728A11209001FD545 /* shapeArea.swift in Sources */,
 				BB46D0D828A102D500C19B38 /* main.swift in Sources */,
+				BBDE969D28A1103B001FD545 /* adjacentElementsProduct.swift in Sources */,
 				BBDE969928A10E40001FD545 /* checkPalindrome.swift in Sources */,
 				BB46D0F728A1084E00C19B38 /* centuryFromYear.swift in Sources */,
 				BB46D0F328A1069A00C19B38 /* add.swift in Sources */,
@@ -216,12 +264,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BBDE96AA28A11230001FD545 /* shapeAreaTests.swift in Sources */,
+				BBDE96A328A1109C001FD545 /* adjacentElementsProductTests.swift in Sources */,
 				BB46D0E728A1037500C19B38 /* addTests.swift in Sources */,
 				BB552F4828A10C96008EC29A /* checkPalindromeTests.swift in Sources */,
+				BBDE96A828A11209001FD545 /* shapeArea.swift in Sources */,
 				BB46D0F828A1084E00C19B38 /* centuryFromYear.swift in Sources */,
 				BBDE969A28A10E40001FD545 /* checkPalindrome.swift in Sources */,
 				BB46D0F428A1069A00C19B38 /* add.swift in Sources */,
 				BB46D0FB28A108DA00C19B38 /* centuryFromYearTests.swift in Sources */,
+				BBDE969E28A1103B001FD545 /* adjacentElementsProduct.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

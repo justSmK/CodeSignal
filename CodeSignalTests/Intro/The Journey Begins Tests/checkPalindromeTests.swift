@@ -7,7 +7,7 @@
 
 import XCTest
 
-class checkPalindromeTests: XCTestCase {
+class CheckPalindromeTests: XCTestCase {
     
     var checkPalindrome: CheckPalindrome!
 
