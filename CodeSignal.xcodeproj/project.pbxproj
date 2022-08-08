@@ -26,6 +26,12 @@
 		BBDE96AC28A113F7001FD545 /* MakeArrayConsecutive2 .swift in Sources */ = {isa = PBXBuildFile; fileRef = BBDE96AB28A113F7001FD545 /* MakeArrayConsecutive2 .swift */; };
 		BBDE96AD28A113F7001FD545 /* MakeArrayConsecutive2 .swift in Sources */ = {isa = PBXBuildFile; fileRef = BBDE96AB28A113F7001FD545 /* MakeArrayConsecutive2 .swift */; };
 		BBDE96AF28A11417001FD545 /* MakeArrayConsecutive2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBDE96AE28A11417001FD545 /* MakeArrayConsecutive2Tests.swift */; };
+		BBDE96B128A114F7001FD545 /* almostIncreasingSequenceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBDE96B028A114F7001FD545 /* almostIncreasingSequenceTests.swift */; };
+		BBDE96B328A114FE001FD545 /* almostIncreasingSequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBDE96B228A114FE001FD545 /* almostIncreasingSequence.swift */; };
+		BBDE96B428A114FE001FD545 /* almostIncreasingSequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBDE96B228A114FE001FD545 /* almostIncreasingSequence.swift */; };
+		BBDE96B628A11645001FD545 /* matrixElementsSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBDE96B528A11645001FD545 /* matrixElementsSum.swift */; };
+		BBDE96B728A11645001FD545 /* matrixElementsSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBDE96B528A11645001FD545 /* matrixElementsSum.swift */; };
+		BBDE96B928A1167B001FD545 /* matrixElementsSumTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBDE96B828A1167B001FD545 /* matrixElementsSumTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -56,6 +62,10 @@
 		BBDE96A928A11230001FD545 /* shapeAreaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = shapeAreaTests.swift; sourceTree = "<group>"; };
 		BBDE96AB28A113F7001FD545 /* MakeArrayConsecutive2 .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MakeArrayConsecutive2 .swift"; sourceTree = "<group>"; };
 		BBDE96AE28A11417001FD545 /* MakeArrayConsecutive2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MakeArrayConsecutive2Tests.swift; sourceTree = "<group>"; };
+		BBDE96B028A114F7001FD545 /* almostIncreasingSequenceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = almostIncreasingSequenceTests.swift; sourceTree = "<group>"; };
+		BBDE96B228A114FE001FD545 /* almostIncreasingSequence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = almostIncreasingSequence.swift; sourceTree = "<group>"; };
+		BBDE96B528A11645001FD545 /* matrixElementsSum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = matrixElementsSum.swift; sourceTree = "<group>"; };
+		BBDE96B828A1167B001FD545 /* matrixElementsSumTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = matrixElementsSumTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -137,6 +147,8 @@
 				BBDE969C28A1103B001FD545 /* adjacentElementsProduct.swift */,
 				BBDE96A628A11209001FD545 /* shapeArea.swift */,
 				BBDE96AB28A113F7001FD545 /* MakeArrayConsecutive2 .swift */,
+				BBDE96B228A114FE001FD545 /* almostIncreasingSequence.swift */,
+				BBDE96B528A11645001FD545 /* matrixElementsSum.swift */,
 			);
 			path = "Edge of the Ocean";
 			sourceTree = "<group>";
@@ -147,6 +159,8 @@
 				BBDE96A228A1109C001FD545 /* adjacentElementsProductTests.swift */,
 				BBDE96A928A11230001FD545 /* shapeAreaTests.swift */,
 				BBDE96AE28A11417001FD545 /* MakeArrayConsecutive2Tests.swift */,
+				BBDE96B028A114F7001FD545 /* almostIncreasingSequenceTests.swift */,
+				BBDE96B828A1167B001FD545 /* matrixElementsSumTests.swift */,
 			);
 			path = "Edge of the Ocean Tests";
 			sourceTree = "<group>";
@@ -154,6 +168,7 @@
 		BBDE96A428A111CB001FD545 /* Intro */ = {
 			isa = PBXGroup;
 			children = (
+				BBDE96BA28A119F8001FD545 /* Smooth Sailing */,
 				BBDE969B28A11030001FD545 /* Edge of the Ocean */,
 				BB46D0F528A1081F00C19B38 /* The Journey Begins */,
 			);
@@ -163,10 +178,25 @@
 		BBDE96A528A111E3001FD545 /* Intro */ = {
 			isa = PBXGroup;
 			children = (
+				BBDE96BB28A119FA001FD545 /* Smooth Sailing */,
 				BBDE969F28A1105C001FD545 /* Edge of the Ocean Tests */,
 				BB46D0F928A1087700C19B38 /* The Journey Begins Tests */,
 			);
 			path = Intro;
+			sourceTree = "<group>";
+		};
+		BBDE96BA28A119F8001FD545 /* Smooth Sailing */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Smooth Sailing";
+			sourceTree = "<group>";
+		};
+		BBDE96BB28A119FA001FD545 /* Smooth Sailing */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Smooth Sailing";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -262,7 +292,9 @@
 				BB46D0D828A102D500C19B38 /* main.swift in Sources */,
 				BBDE969D28A1103B001FD545 /* adjacentElementsProduct.swift in Sources */,
 				BBDE969928A10E40001FD545 /* checkPalindrome.swift in Sources */,
+				BBDE96B628A11645001FD545 /* matrixElementsSum.swift in Sources */,
 				BB46D0F728A1084E00C19B38 /* centuryFromYear.swift in Sources */,
+				BBDE96B328A114FE001FD545 /* almostIncreasingSequence.swift in Sources */,
 				BBDE96AC28A113F7001FD545 /* MakeArrayConsecutive2 .swift in Sources */,
 				BB46D0F328A1069A00C19B38 /* add.swift in Sources */,
 			);
@@ -273,10 +305,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				BBDE96AA28A11230001FD545 /* shapeAreaTests.swift in Sources */,
+				BBDE96B928A1167B001FD545 /* matrixElementsSumTests.swift in Sources */,
+				BBDE96B728A11645001FD545 /* matrixElementsSum.swift in Sources */,
 				BBDE96A328A1109C001FD545 /* adjacentElementsProductTests.swift in Sources */,
 				BBDE96AF28A11417001FD545 /* MakeArrayConsecutive2Tests.swift in Sources */,
 				BB46D0E728A1037500C19B38 /* addTests.swift in Sources */,
 				BB552F4828A10C96008EC29A /* checkPalindromeTests.swift in Sources */,
+				BBDE96B428A114FE001FD545 /* almostIncreasingSequence.swift in Sources */,
 				BBDE96A828A11209001FD545 /* shapeArea.swift in Sources */,
 				BB46D0F828A1084E00C19B38 /* centuryFromYear.swift in Sources */,
 				BBDE969A28A10E40001FD545 /* checkPalindrome.swift in Sources */,
@@ -284,6 +319,7 @@
 				BBDE96AD28A113F7001FD545 /* MakeArrayConsecutive2 .swift in Sources */,
 				BB46D0FB28A108DA00C19B38 /* centuryFromYearTests.swift in Sources */,
 				BBDE969E28A1103B001FD545 /* adjacentElementsProduct.swift in Sources */,
+				BBDE96B128A114F7001FD545 /* almostIncreasingSequenceTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
