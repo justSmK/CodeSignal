@@ -74,14 +74,5 @@ class AddTests: XCTestCase {
         let result = add.solution(param1: p1, param2: p2)
         XCTAssertEqual(result, expectedOutput)
     }
-    
-    func testPerformanceExample() throws {
-        let p1 = 1
-        let p2 = 2
-        
-        measure {
-            _ = add.solution(param1: p1, param2: p2)
-        }
-    }
 
 }

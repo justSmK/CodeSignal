@@ -27,6 +27,9 @@ class CheckPalindromeTests: XCTestCase {
         
         let result = checkPalindrome.solution(inputString: inputString)
         XCTAssertEqual(result, expectedOutput)
+        
+        let resultSol2 = checkPalindrome.solution2(inputString: inputString)
+        XCTAssertEqual(resultSol2, expectedOutput)
     }
     
     func test_2() throws {
@@ -35,6 +38,9 @@ class CheckPalindromeTests: XCTestCase {
         
         let result = checkPalindrome.solution(inputString: inputString)
         XCTAssertEqual(result, expectedOutput)
+        
+        let resultSol2 = checkPalindrome.solution2(inputString: inputString)
+        XCTAssertEqual(resultSol2, expectedOutput)
     }
     
     func test_3() throws {
@@ -43,6 +49,9 @@ class CheckPalindromeTests: XCTestCase {
         
         let result = checkPalindrome.solution(inputString: inputString)
         XCTAssertEqual(result, expectedOutput)
+        
+        let resultSol2 = checkPalindrome.solution2(inputString: inputString)
+        XCTAssertEqual(resultSol2, expectedOutput)
     }
     
     func test_4() throws {
@@ -51,6 +60,9 @@ class CheckPalindromeTests: XCTestCase {
         
         let result = checkPalindrome.solution(inputString: inputString)
         XCTAssertEqual(result, expectedOutput)
+        
+        let resultSol2 = checkPalindrome.solution2(inputString: inputString)
+        XCTAssertEqual(resultSol2, expectedOutput)
     }
     
     func test_5() throws {
@@ -59,6 +71,9 @@ class CheckPalindromeTests: XCTestCase {
         
         let result = checkPalindrome.solution(inputString: inputString)
         XCTAssertEqual(result, expectedOutput)
+        
+        let resultSol2 = checkPalindrome.solution2(inputString: inputString)
+        XCTAssertEqual(resultSol2, expectedOutput)
     }
     
     func test_6() throws {
@@ -67,6 +82,9 @@ class CheckPalindromeTests: XCTestCase {
         
         let result = checkPalindrome.solution(inputString: inputString)
         XCTAssertEqual(result, expectedOutput)
+        
+        let resultSol2 = checkPalindrome.solution2(inputString: inputString)
+        XCTAssertEqual(resultSol2, expectedOutput)
     }
     
     func test_7() throws {
@@ -75,6 +93,9 @@ class CheckPalindromeTests: XCTestCase {
         
         let result = checkPalindrome.solution(inputString: inputString)
         XCTAssertEqual(result, expectedOutput)
+        
+        let resultSol2 = checkPalindrome.solution2(inputString: inputString)
+        XCTAssertEqual(resultSol2, expectedOutput)
     }
     
     func test_8() throws {
@@ -83,6 +104,9 @@ class CheckPalindromeTests: XCTestCase {
         
         let result = checkPalindrome.solution(inputString: inputString)
         XCTAssertEqual(result, expectedOutput)
+        
+        let resultSol2 = checkPalindrome.solution2(inputString: inputString)
+        XCTAssertEqual(resultSol2, expectedOutput)
     }
     
     func test_9() throws {
@@ -91,6 +115,9 @@ class CheckPalindromeTests: XCTestCase {
         
         let result = checkPalindrome.solution(inputString: inputString)
         XCTAssertEqual(result, expectedOutput)
+        
+        let resultSol2 = checkPalindrome.solution2(inputString: inputString)
+        XCTAssertEqual(resultSol2, expectedOutput)
     }
     
     func test_10() throws {
@@ -99,14 +126,9 @@ class CheckPalindromeTests: XCTestCase {
         
         let result = checkPalindrome.solution(inputString: inputString)
         XCTAssertEqual(result, expectedOutput)
-    }
-
-    func testPerformanceExample() throws {
-        let inputString = "aabaa"
         
-        self.measure {
-            _ = checkPalindrome.solution(inputString: inputString)
-        }
+        let resultSol2 = checkPalindrome.solution2(inputString: inputString)
+        XCTAssertEqual(resultSol2, expectedOutput)
     }
 
 }

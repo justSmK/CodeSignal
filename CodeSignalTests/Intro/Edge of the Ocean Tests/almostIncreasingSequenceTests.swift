@@ -39,6 +39,9 @@ class AlmostIncreasingSequenceTests: XCTestCase {
         
         let result = almostIncreasingSequence.solution(sequence: sequence)
         XCTAssertEqual(result, expectedOutput)
+        
+        let resultSol2 = almostIncreasingSequence.solution2(sequence: sequence)
+        XCTAssertEqual(resultSol2, expectedOutput)
     }
     
     func test_2() throws {
@@ -47,6 +50,9 @@ class AlmostIncreasingSequenceTests: XCTestCase {
         
         let result = almostIncreasingSequence.solution(sequence: sequence)
         XCTAssertEqual(result, expectedOutput)
+        
+        let resultSol2 = almostIncreasingSequence.solution2(sequence: sequence)
+        XCTAssertEqual(resultSol2, expectedOutput)
     }
     
     func test_3() throws {
@@ -55,6 +61,9 @@ class AlmostIncreasingSequenceTests: XCTestCase {
         
         let result = almostIncreasingSequence.solution(sequence: sequence)
         XCTAssertEqual(result, expectedOutput)
+        
+        let resultSol2 = almostIncreasingSequence.solution2(sequence: sequence)
+        XCTAssertEqual(resultSol2, expectedOutput)
     }
     
     func test_4() throws {
@@ -63,6 +72,9 @@ class AlmostIncreasingSequenceTests: XCTestCase {
         
         let result = almostIncreasingSequence.solution(sequence: sequence)
         XCTAssertEqual(result, expectedOutput)
+        
+        let resultSol2 = almostIncreasingSequence.solution2(sequence: sequence)
+        XCTAssertEqual(resultSol2, expectedOutput)
     }
     
     func test_5() throws {
@@ -71,6 +83,9 @@ class AlmostIncreasingSequenceTests: XCTestCase {
         
         let result = almostIncreasingSequence.solution(sequence: sequence)
         XCTAssertEqual(result, expectedOutput)
+        
+        let resultSol2 = almostIncreasingSequence.solution2(sequence: sequence)
+        XCTAssertEqual(resultSol2, expectedOutput)
     }
     
     func test_6() throws {
@@ -79,6 +94,9 @@ class AlmostIncreasingSequenceTests: XCTestCase {
         
         let result = almostIncreasingSequence.solution(sequence: sequence)
         XCTAssertEqual(result, expectedOutput)
+        
+        let resultSol2 = almostIncreasingSequence.solution2(sequence: sequence)
+        XCTAssertEqual(resultSol2, expectedOutput)
     }
     
     func test_7() throws {
@@ -87,6 +105,9 @@ class AlmostIncreasingSequenceTests: XCTestCase {
         
         let result = almostIncreasingSequence.solution(sequence: sequence)
         XCTAssertEqual(result, expectedOutput)
+        
+        let resultSol2 = almostIncreasingSequence.solution2(sequence: sequence)
+        XCTAssertEqual(resultSol2, expectedOutput)
     }
     
     func test_8() throws {
@@ -95,6 +116,9 @@ class AlmostIncreasingSequenceTests: XCTestCase {
         
         let result = almostIncreasingSequence.solution(sequence: sequence)
         XCTAssertEqual(result, expectedOutput)
+        
+        let resultSol2 = almostIncreasingSequence.solution2(sequence: sequence)
+        XCTAssertEqual(resultSol2, expectedOutput)
     }
     
     func test_9() throws {
@@ -103,6 +127,9 @@ class AlmostIncreasingSequenceTests: XCTestCase {
         
         let result = almostIncreasingSequence.solution(sequence: sequence)
         XCTAssertEqual(result, expectedOutput)
+        
+        let resultSol2 = almostIncreasingSequence.solution2(sequence: sequence)
+        XCTAssertEqual(resultSol2, expectedOutput)
     }
     
     func test_10() throws {
@@ -111,6 +138,9 @@ class AlmostIncreasingSequenceTests: XCTestCase {
         
         let result = almostIncreasingSequence.solution(sequence: sequence)
         XCTAssertEqual(result, expectedOutput)
+        
+        let resultSol2 = almostIncreasingSequence.solution2(sequence: sequence)
+        XCTAssertEqual(resultSol2, expectedOutput)
     }
     
     func test_11() throws {
@@ -119,6 +149,9 @@ class AlmostIncreasingSequenceTests: XCTestCase {
         
         let result = almostIncreasingSequence.solution(sequence: sequence)
         XCTAssertEqual(result, expectedOutput)
+        
+        let resultSol2 = almostIncreasingSequence.solution2(sequence: sequence)
+        XCTAssertEqual(resultSol2, expectedOutput)
     }
     
     func test_12() throws {
@@ -127,6 +160,9 @@ class AlmostIncreasingSequenceTests: XCTestCase {
         
         let result = almostIncreasingSequence.solution(sequence: sequence)
         XCTAssertEqual(result, expectedOutput)
+        
+        let resultSol2 = almostIncreasingSequence.solution2(sequence: sequence)
+        XCTAssertEqual(resultSol2, expectedOutput)
     }
     
     func test_13() throws {
@@ -135,6 +171,9 @@ class AlmostIncreasingSequenceTests: XCTestCase {
         
         let result = almostIncreasingSequence.solution(sequence: sequence)
         XCTAssertEqual(result, expectedOutput)
+        
+        let resultSol2 = almostIncreasingSequence.solution2(sequence: sequence)
+        XCTAssertEqual(resultSol2, expectedOutput)
     }
     
     func test_14() throws {
@@ -143,6 +182,9 @@ class AlmostIncreasingSequenceTests: XCTestCase {
         
         let result = almostIncreasingSequence.solution(sequence: sequence)
         XCTAssertEqual(result, expectedOutput)
+        
+        let resultSol2 = almostIncreasingSequence.solution2(sequence: sequence)
+        XCTAssertEqual(resultSol2, expectedOutput)
     }
     
     func test_15() throws {
@@ -151,6 +193,9 @@ class AlmostIncreasingSequenceTests: XCTestCase {
         
         let result = almostIncreasingSequence.solution(sequence: sequence)
         XCTAssertEqual(result, expectedOutput)
+        
+        let resultSol2 = almostIncreasingSequence.solution2(sequence: sequence)
+        XCTAssertEqual(resultSol2, expectedOutput)
     }
     
     func test_16() throws {
@@ -159,6 +204,9 @@ class AlmostIncreasingSequenceTests: XCTestCase {
         
         let result = almostIncreasingSequence.solution(sequence: sequence)
         XCTAssertEqual(result, expectedOutput)
+        
+        let resultSol2 = almostIncreasingSequence.solution2(sequence: sequence)
+        XCTAssertEqual(resultSol2, expectedOutput)
     }
     
     func test_17() throws {
@@ -167,6 +215,9 @@ class AlmostIncreasingSequenceTests: XCTestCase {
         
         let result = almostIncreasingSequence.solution(sequence: sequence)
         XCTAssertEqual(result, expectedOutput)
+        
+        let resultSol2 = almostIncreasingSequence.solution2(sequence: sequence)
+        XCTAssertEqual(resultSol2, expectedOutput)
     }
     
     func test_18() throws {
@@ -175,6 +226,9 @@ class AlmostIncreasingSequenceTests: XCTestCase {
         
         let result = almostIncreasingSequence.solution(sequence: sequence)
         XCTAssertEqual(result, expectedOutput)
+        
+        let resultSol2 = almostIncreasingSequence.solution2(sequence: sequence)
+        XCTAssertEqual(resultSol2, expectedOutput)
     }
     
     func test_19() throws {
@@ -183,13 +237,20 @@ class AlmostIncreasingSequenceTests: XCTestCase {
         
         let result = almostIncreasingSequence.solution(sequence: sequence)
         XCTAssertEqual(result, expectedOutput)
+        
+        let resultSol2 = almostIncreasingSequence.solution2(sequence: sequence)
+        XCTAssertEqual(resultSol2, expectedOutput)
     }
-
-    func testPerformanceExample() throws {
-        // This is an example of a performance test case.
-        self.measure {
-            // Put the code you want to measure the time of here.
-        }
+    
+    func test_20() throws {
+        let sequence = [1, 2, 3, 4, 5]
+        let expectedOutput = true
+        
+        let result = almostIncreasingSequence.solution(sequence: sequence)
+        XCTAssertEqual(result, expectedOutput)
+        
+        let resultSol2 = almostIncreasingSequence.solution2(sequence: sequence)
+        XCTAssertEqual(resultSol2, expectedOutput)
     }
 
 }

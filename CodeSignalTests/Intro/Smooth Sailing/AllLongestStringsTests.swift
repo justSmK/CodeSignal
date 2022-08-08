@@ -33,6 +33,9 @@ class AllLongestStringsTests: XCTestCase {
         
         let result = allLongestStrings.solution(inputArray: inputArray)
         XCTAssertEqual(result, expectedOutput)
+        
+        let resultSol2 = allLongestStrings.solution2(inputArray: inputArray)
+        XCTAssertEqual(resultSol2, expectedOutput)
     }
     
     func test_2() throws {
@@ -41,6 +44,9 @@ class AllLongestStringsTests: XCTestCase {
         
         let result = allLongestStrings.solution(inputArray: inputArray)
         XCTAssertEqual(result, expectedOutput)
+        
+        let resultSol2 = allLongestStrings.solution2(inputArray: inputArray)
+        XCTAssertEqual(resultSol2, expectedOutput)
     }
     
     func test_3() throws {
@@ -53,6 +59,9 @@ class AllLongestStringsTests: XCTestCase {
         
         let result = allLongestStrings.solution(inputArray: inputArray)
         XCTAssertEqual(result, expectedOutput)
+        
+        let resultSol2 = allLongestStrings.solution2(inputArray: inputArray)
+        XCTAssertEqual(resultSol2, expectedOutput)
     }
     
     func test_4() throws {
@@ -70,6 +79,9 @@ class AllLongestStringsTests: XCTestCase {
         
         let result = allLongestStrings.solution(inputArray: inputArray)
         XCTAssertEqual(result, expectedOutput)
+        
+        let resultSol2 = allLongestStrings.solution2(inputArray: inputArray)
+        XCTAssertEqual(resultSol2, expectedOutput)
     }
     
     func test_5() throws {
@@ -81,6 +93,9 @@ class AllLongestStringsTests: XCTestCase {
         
         let result = allLongestStrings.solution(inputArray: inputArray)
         XCTAssertEqual(result, expectedOutput)
+        
+        let resultSol2 = allLongestStrings.solution2(inputArray: inputArray)
+        XCTAssertEqual(resultSol2, expectedOutput)
     }
     
     func test_6() throws {
@@ -92,6 +107,9 @@ class AllLongestStringsTests: XCTestCase {
         
         let result = allLongestStrings.solution(inputArray: inputArray)
         XCTAssertEqual(result, expectedOutput)
+        
+        let resultSol2 = allLongestStrings.solution2(inputArray: inputArray)
+        XCTAssertEqual(resultSol2, expectedOutput)
     }
     
     func test_7() throws {
@@ -110,6 +128,9 @@ class AllLongestStringsTests: XCTestCase {
         
         let result = allLongestStrings.solution(inputArray: inputArray)
         XCTAssertEqual(result, expectedOutput)
+        
+        let resultSol2 = allLongestStrings.solution2(inputArray: inputArray)
+        XCTAssertEqual(resultSol2, expectedOutput)
     }
     
     func test_8() throws {
@@ -120,6 +141,9 @@ class AllLongestStringsTests: XCTestCase {
         
         let result = allLongestStrings.solution(inputArray: inputArray)
         XCTAssertEqual(result, expectedOutput)
+        
+        let resultSol2 = allLongestStrings.solution2(inputArray: inputArray)
+        XCTAssertEqual(resultSol2, expectedOutput)
     }
     
     func test_9() throws {
@@ -128,6 +152,9 @@ class AllLongestStringsTests: XCTestCase {
         
         let result = allLongestStrings.solution(inputArray: inputArray)
         XCTAssertEqual(result, expectedOutput)
+        
+        let resultSol2 = allLongestStrings.solution2(inputArray: inputArray)
+        XCTAssertEqual(resultSol2, expectedOutput)
     }
     
     func test_10() throws {
@@ -136,13 +163,9 @@ class AllLongestStringsTests: XCTestCase {
         
         let result = allLongestStrings.solution(inputArray: inputArray)
         XCTAssertEqual(result, expectedOutput)
-    }
-
-    func testPerformanceExample() throws {
-        // This is an example of a performance test case.
-        self.measure {
-            // Put the code you want to measure the time of here.
-        }
+        
+        let resultSol2 = allLongestStrings.solution2(inputArray: inputArray)
+        XCTAssertEqual(resultSol2, expectedOutput)
     }
 
 }

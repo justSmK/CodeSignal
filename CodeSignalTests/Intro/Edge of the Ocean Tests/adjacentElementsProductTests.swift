@@ -92,12 +92,4 @@ class AdjacentElementsProductTests: XCTestCase {
         let result = adjacentElementsProduct.solution(inputArray: inputArray)
         XCTAssertEqual(result, expectedOutput)
     }
-
-    func testPerformanceExample() throws {
-        let inputArray = [3, 6, -2, -5, 7, 3]
-        self.measure {
-            _ = adjacentElementsProduct.solution(inputArray: inputArray)
-        }
-    }
-
 }

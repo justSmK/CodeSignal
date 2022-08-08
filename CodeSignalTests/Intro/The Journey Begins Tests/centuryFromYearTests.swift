@@ -93,11 +93,4 @@ class CenturyFromYearTests: XCTestCase {
         XCTAssertEqual(result, expectedOutput)
     }
 
-    func testPerformanceExample() throws {
-        let year = 1905
-        self.measure {
-            _ = centuryFromYear.solution(year: year)
-        }
-    }
-
 }
