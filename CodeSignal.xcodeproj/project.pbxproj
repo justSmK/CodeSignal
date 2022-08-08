@@ -23,6 +23,9 @@
 		BBDE96A728A11209001FD545 /* shapeArea.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBDE96A628A11209001FD545 /* shapeArea.swift */; };
 		BBDE96A828A11209001FD545 /* shapeArea.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBDE96A628A11209001FD545 /* shapeArea.swift */; };
 		BBDE96AA28A11230001FD545 /* shapeAreaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBDE96A928A11230001FD545 /* shapeAreaTests.swift */; };
+		BBDE96AC28A113F7001FD545 /* MakeArrayConsecutive2 .swift in Sources */ = {isa = PBXBuildFile; fileRef = BBDE96AB28A113F7001FD545 /* MakeArrayConsecutive2 .swift */; };
+		BBDE96AD28A113F7001FD545 /* MakeArrayConsecutive2 .swift in Sources */ = {isa = PBXBuildFile; fileRef = BBDE96AB28A113F7001FD545 /* MakeArrayConsecutive2 .swift */; };
+		BBDE96AF28A11417001FD545 /* MakeArrayConsecutive2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBDE96AE28A11417001FD545 /* MakeArrayConsecutive2Tests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -51,6 +54,8 @@
 		BBDE96A228A1109C001FD545 /* adjacentElementsProductTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = adjacentElementsProductTests.swift; sourceTree = "<group>"; };
 		BBDE96A628A11209001FD545 /* shapeArea.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = shapeArea.swift; sourceTree = "<group>"; };
 		BBDE96A928A11230001FD545 /* shapeAreaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = shapeAreaTests.swift; sourceTree = "<group>"; };
+		BBDE96AB28A113F7001FD545 /* MakeArrayConsecutive2 .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MakeArrayConsecutive2 .swift"; sourceTree = "<group>"; };
+		BBDE96AE28A11417001FD545 /* MakeArrayConsecutive2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MakeArrayConsecutive2Tests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -131,6 +136,7 @@
 			children = (
 				BBDE969C28A1103B001FD545 /* adjacentElementsProduct.swift */,
 				BBDE96A628A11209001FD545 /* shapeArea.swift */,
+				BBDE96AB28A113F7001FD545 /* MakeArrayConsecutive2 .swift */,
 			);
 			path = "Edge of the Ocean";
 			sourceTree = "<group>";
@@ -140,6 +146,7 @@
 			children = (
 				BBDE96A228A1109C001FD545 /* adjacentElementsProductTests.swift */,
 				BBDE96A928A11230001FD545 /* shapeAreaTests.swift */,
+				BBDE96AE28A11417001FD545 /* MakeArrayConsecutive2Tests.swift */,
 			);
 			path = "Edge of the Ocean Tests";
 			sourceTree = "<group>";
@@ -256,6 +263,7 @@
 				BBDE969D28A1103B001FD545 /* adjacentElementsProduct.swift in Sources */,
 				BBDE969928A10E40001FD545 /* checkPalindrome.swift in Sources */,
 				BB46D0F728A1084E00C19B38 /* centuryFromYear.swift in Sources */,
+				BBDE96AC28A113F7001FD545 /* MakeArrayConsecutive2 .swift in Sources */,
 				BB46D0F328A1069A00C19B38 /* add.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -266,12 +274,14 @@
 			files = (
 				BBDE96AA28A11230001FD545 /* shapeAreaTests.swift in Sources */,
 				BBDE96A328A1109C001FD545 /* adjacentElementsProductTests.swift in Sources */,
+				BBDE96AF28A11417001FD545 /* MakeArrayConsecutive2Tests.swift in Sources */,
 				BB46D0E728A1037500C19B38 /* addTests.swift in Sources */,
 				BB552F4828A10C96008EC29A /* checkPalindromeTests.swift in Sources */,
 				BBDE96A828A11209001FD545 /* shapeArea.swift in Sources */,
 				BB46D0F828A1084E00C19B38 /* centuryFromYear.swift in Sources */,
 				BBDE969A28A10E40001FD545 /* checkPalindrome.swift in Sources */,
 				BB46D0F428A1069A00C19B38 /* add.swift in Sources */,
+				BBDE96AD28A113F7001FD545 /* MakeArrayConsecutive2 .swift in Sources */,
 				BB46D0FB28A108DA00C19B38 /* centuryFromYearTests.swift in Sources */,
 				BBDE969E28A1103B001FD545 /* adjacentElementsProduct.swift in Sources */,
 			);
