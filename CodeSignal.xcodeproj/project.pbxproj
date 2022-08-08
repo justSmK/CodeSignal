@@ -44,6 +44,9 @@
 		BBDE96CF28A12110001FD545 /* SortByHeight .swift in Sources */ = {isa = PBXBuildFile; fileRef = BBDE96CE28A12110001FD545 /* SortByHeight .swift */; };
 		BBDE96D028A12110001FD545 /* SortByHeight .swift in Sources */ = {isa = PBXBuildFile; fileRef = BBDE96CE28A12110001FD545 /* SortByHeight .swift */; };
 		BBDE96D228A12125001FD545 /* SortByHeightTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBDE96D128A12125001FD545 /* SortByHeightTests.swift */; };
+		BBDE96D428A124CE001FD545 /* reverseInParentheses.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBDE96D328A124CE001FD545 /* reverseInParentheses.swift */; };
+		BBDE96D528A124CE001FD545 /* reverseInParentheses.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBDE96D328A124CE001FD545 /* reverseInParentheses.swift */; };
+		BBDE96D728A124E5001FD545 /* reverseInParenthesesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBDE96D628A124E5001FD545 /* reverseInParenthesesTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -86,6 +89,8 @@
 		BBDE96CC28A11E34001FD545 /* isLuckyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = isLuckyTests.swift; sourceTree = "<group>"; };
 		BBDE96CE28A12110001FD545 /* SortByHeight .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SortByHeight .swift"; sourceTree = "<group>"; };
 		BBDE96D128A12125001FD545 /* SortByHeightTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SortByHeightTests.swift; sourceTree = "<group>"; };
+		BBDE96D328A124CE001FD545 /* reverseInParentheses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = reverseInParentheses.swift; sourceTree = "<group>"; };
+		BBDE96D628A124E5001FD545 /* reverseInParenthesesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = reverseInParenthesesTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -212,6 +217,7 @@
 				BBDE96C428A11C8D001FD545 /* commonCharacterCount.swift */,
 				BBDE96C928A11E12001FD545 /* isLucky.swift */,
 				BBDE96CE28A12110001FD545 /* SortByHeight .swift */,
+				BBDE96D328A124CE001FD545 /* reverseInParentheses.swift */,
 			);
 			path = "Smooth Sailing";
 			sourceTree = "<group>";
@@ -223,6 +229,7 @@
 				BBDE96C728A11D14001FD545 /* commonCharacterCountTests.swift */,
 				BBDE96CC28A11E34001FD545 /* isLuckyTests.swift */,
 				BBDE96D128A12125001FD545 /* SortByHeightTests.swift */,
+				BBDE96D628A124E5001FD545 /* reverseInParenthesesTests.swift */,
 			);
 			path = "Smooth Sailing";
 			sourceTree = "<group>";
@@ -328,6 +335,7 @@
 				BBDE96B328A114FE001FD545 /* almostIncreasingSequence.swift in Sources */,
 				BBDE96CF28A12110001FD545 /* SortByHeight .swift in Sources */,
 				BBDE96AC28A113F7001FD545 /* MakeArrayConsecutive2 .swift in Sources */,
+				BBDE96D428A124CE001FD545 /* reverseInParentheses.swift in Sources */,
 				BB46D0F328A1069A00C19B38 /* add.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -338,10 +346,12 @@
 			files = (
 				BBDE96AA28A11230001FD545 /* shapeAreaTests.swift in Sources */,
 				BBDE96D228A12125001FD545 /* SortByHeightTests.swift in Sources */,
+				BBDE96D728A124E5001FD545 /* reverseInParenthesesTests.swift in Sources */,
 				BBDE96C128A11A3B001FD545 /* AllLongestStrings.swift in Sources */,
 				BBDE96CB28A11E12001FD545 /* isLucky.swift in Sources */,
 				BBDE96C328A11A85001FD545 /* AllLongestStringsTests.swift in Sources */,
 				BBDE96B928A1167B001FD545 /* matrixElementsSumTests.swift in Sources */,
+				BBDE96D528A124CE001FD545 /* reverseInParentheses.swift in Sources */,
 				BBDE96B728A11645001FD545 /* matrixElementsSum.swift in Sources */,
 				BBDE96CD28A11E34001FD545 /* isLuckyTests.swift in Sources */,
 				BBDE96C628A11C8D001FD545 /* commonCharacterCount.swift in Sources */,
